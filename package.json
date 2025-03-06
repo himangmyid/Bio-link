@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "daisyui": "^5.0.0",
+    "postprocessing": "^6.37.0",
+    "tailwindcss": "^4.0.9",
+    "three": "^0.167.1"
+  },
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i app.css -o public/output.css"
+  }
+}
