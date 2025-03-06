@@ -10,8 +10,11 @@ I created a **Bio Link** using **Next.js 15** and **Tailwind CSS 4**. This proje
 ### Desktop View
 ![Bio Link Desktop](https://github.com/himangmyid/Bio-link/blob/main/public/biolink%20mac.png?raw=true)
 
+## Demo
+[🚀 Live Demo](https://bio-link-himangv1.netlify.app/)
+
 ## Features
-- Fully responsive design (maybe)
+- Fully responsive design
 - Customizable links and styles
 - Built with Next.js 15 for fast performance
 - Styled with Tailwind CSS 4 for modern UI
