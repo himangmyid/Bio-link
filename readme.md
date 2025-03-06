@@ -11,6 +11,9 @@ I created a **Bio Link** using **Next.js 15** and **Tailwind CSS 4**. This proje
 ![Bio Link Desktop](https://github.com/himangmyid/Bio-link/blob/main/public/biolink%20mac.png?raw=true)
 
 ## Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-%F0%9F%9A%80-blue?style=for-the-badge)](https://bio-link-himangv1.netlify.app/)
+
 [🚀 Live Demo](https://bio-link-himangv1.netlify.app/)
 
 ## Features
