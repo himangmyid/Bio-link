@@ -19,7 +19,6 @@ I created a **Bio Link** using **Tailwind CSS 4**. This project provides a custo
 ## Features
 - Fully responsive design (Maybe)
 - Customizable links and styles
-- Built with Next.js 15 for fast performance
 - Styled with Tailwind CSS 4 for modern UI
 
 ## Installation
