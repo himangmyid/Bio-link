@@ -1,4 +1,4 @@
-# Bio Link using Next.js 15 & Tailwind CSS 4
+# Bio Link using Tailwind CSS 4
 
 I created a **Bio Link** using **Next.js 15** and **Tailwind CSS 4**. This project provides a customizable and responsive bio link page similar to Linktree.
 
