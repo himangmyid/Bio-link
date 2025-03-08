@@ -1,22 +1,24 @@
 @import "tailwindcss";
 @source "./public/*.{html,css,js}";
 @plugin "daisyui" {
-  themes: wireframe --default,  dark;
+  themes: wireframe --default, dark;
 }
 @custom-variant dark (&:where(.dark, .dark *));
 
-
-
 @layer components {
   .a-but {
-    @apply relative flex items-center justify-center   text-lg font-semibold hover:shadow-sm hover:scale-105   rounded-2xl border-b-4 shadow-md transition-all duration-500  break-words text-center dark:bg-gray-800 border-gray-300 dark:border-gray-700  
-    shadow-gray-400 dark:shadow-gray-900 sm:px-20 md:px-30 lg:px-50 py-4 px-19;
+    @apply relative flex items-center justify-center
+    text-lg font-semibold hover:shadow-sm hover:scale-105   
+    rounded-2xl border-b-4 shadow-md transition-all duration-600  
+    break-words text-center dark:bg-gray-800 border-gray-300 dark:border-gray-700  
+    shadow-gray-400 
+    dark:shadow-gray-900 sm:px-20 md:px-30 lg:px-40 py-4 px-19;
   }
-  .fa-icon{
+  .fa-icon {
     @apply absolute left-4 transition-all duration-300 group-hover:scale-110;
   }
-   /* Warna Hover Berdasarkan Platform (Lebih Gelap & Kalem) */
-   .a-but-website:hover {
+  /* Warna Hover Berdasarkan Platform (Lebih Gelap & Kalem) */
+  .a-but-website:hover {
     @apply bg-gray-800 border-gray-900 text-white;
   }
 
@@ -97,8 +99,14 @@
   }
 }
 @keyframes snowfall {
-  from { transform: translateY(0); opacity: 1; }
-  to { transform: translateY(100vh); opacity: 0; }
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
 }
 
 .snowflake {

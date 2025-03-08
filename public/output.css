@@ -4358,6 +4358,12 @@
   .list-col-wrap {
     grid-row-start: 2;
   }
+  .row-start-2 {
+    grid-row-start: 2;
+  }
+  .row-start-3 {
+    grid-row-start: 3;
+  }
   .row-start-auto {
     grid-row-start: auto;
   }
@@ -4931,6 +4937,9 @@
     text-transform: uppercase;
     opacity: 60%;
     font-weight: 600;
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -6226,6 +6235,9 @@
   .grid-cols-subgrid {
     grid-template-columns: subgrid;
   }
+  .grid-rows-\[20px_1fr_20px\] {
+    grid-template-rows: 20px 1fr 20px;
+  }
   .grid-rows-none {
     grid-template-rows: none;
   }
@@ -6390,6 +6402,15 @@
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
+  }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+  .gap-16 {
+    gap: calc(var(--spacing) * 16);
   }
   .space-y-4 {
     :where(& > :not(:last-child)) {
@@ -6979,8 +7000,17 @@
     color: var(--color-warning-content);
     --alert-color: var(--color-warning);
   }
+  .border-black {
+    border-color: var(--color-black);
+  }
+  .border-black\/\[\.08\] {
+    border-color: color-mix(in oklab, var(--color-black) 8%, transparent);
+  }
   .border-blue-200 {
     border-color: var(--color-blue-200);
+  }
+  .border-transparent {
+    border-color: transparent;
   }
   .glass {
     border: none;
@@ -7108,6 +7138,12 @@
   }
   .bg-base-300 {
     background-color: var(--color-base-300);
+  }
+  .bg-black {
+    background-color: var(--color-black);
+  }
+  .bg-black\/\[\.05\] {
+    background-color: color-mix(in oklab, var(--color-black) 5%, transparent);
   }
   .bg-gray-800 {
     background-color: var(--color-gray-800);
@@ -7426,6 +7462,9 @@
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
+  .p-8 {
+    padding: calc(var(--spacing) * 8);
+  }
   .p-12 {
     padding: calc(var(--spacing) * 12);
   }
@@ -7515,6 +7554,9 @@
     font-size: 0.625rem;
     padding-inline: calc(0.25rem * 2 - var(--border));
   }
+  .px-1 {
+    padding-inline: calc(var(--spacing) * 1);
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -7545,6 +7587,12 @@
   .px-300 {
     padding-inline: calc(var(--spacing) * 300);
   }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
+  }
+  .py-0\.5 {
+    padding-block: calc(var(--spacing) * 0.5);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -7574,6 +7622,9 @@
   }
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
+  }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
   }
   .text-center {
     text-align: center;
@@ -7616,6 +7667,12 @@
   }
   .align-top {
     vertical-align: top;
+  }
+  .font-\[family-name\:var\(--font-geist-mono\)\] {
+    font-family: var(--font-geist-mono);
+  }
+  .font-\[family-name\:var\(--font-geist-sans\)\] {
+    font-family: var(--font-geist-sans);
   }
   .text-3xl {
     font-size: var(--text-3xl);
@@ -9300,6 +9357,51 @@
   .transform-view {
     transform-box: view-box;
   }
+  .hover\:border-transparent {
+    &:hover {
+      @media (hover: hover) {
+        border-color: transparent;
+      }
+    }
+  }
+  .hover\:bg-\[\#383838\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #383838;
+      }
+    }
+  }
+  .hover\:bg-\[\#f2f2f2\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .hover\:underline-offset-4 {
+    &:hover {
+      @media (hover: hover) {
+        text-underline-offset: 4px;
+      }
+    }
+  }
+  .sm\:h-12 {
+    @media (width >= 40rem) {
+      height: calc(var(--spacing) * 12);
+    }
+  }
+  .sm\:min-w-44 {
+    @media (width >= 40rem) {
+      min-width: calc(var(--spacing) * 44);
+    }
+  }
   .sm\:footer-horizontal {
     @media (width >= 40rem) {
       grid-auto-flow: column;
@@ -9308,14 +9410,79 @@
       }
     }
   }
+  .sm\:flex-row {
+    @media (width >= 40rem) {
+      flex-direction: row;
+    }
+  }
+  .sm\:items-start {
+    @media (width >= 40rem) {
+      align-items: flex-start;
+    }
+  }
+  .sm\:p-20 {
+    @media (width >= 40rem) {
+      padding: calc(var(--spacing) * 20);
+    }
+  }
   .sm\:px-4 {
     @media (width >= 40rem) {
       padding-inline: calc(var(--spacing) * 4);
     }
   }
+  .sm\:px-5 {
+    @media (width >= 40rem) {
+      padding-inline: calc(var(--spacing) * 5);
+    }
+  }
   .sm\:py-4 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 4);
+    }
+  }
+  .sm\:text-left {
+    @media (width >= 40rem) {
+      text-align: left;
+    }
+  }
+  .sm\:text-base {
+    @media (width >= 40rem) {
+      font-size: var(--text-base);
+      line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+  }
+  .dark\:border-white\/\[\.145\] {
+    &:where(.dark, .dark *) {
+      border-color: color-mix(in oklab, var(--color-white) 14.499999999999998%, transparent);
+    }
+  }
+  .dark\:bg-white\/\[\.06\] {
+    &:where(.dark, .dark *) {
+      background-color: color-mix(in oklab, var(--color-white) 6%, transparent);
+    }
+  }
+  .dark\:invert {
+    &:where(.dark, .dark *) {
+      --tw-invert: invert(100%);
+      filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+    }
+  }
+  .dark\:hover\:bg-\[\#1a1a1a\] {
+    &:where(.dark, .dark *) {
+      &:hover {
+        @media (hover: hover) {
+          background-color: #1a1a1a;
+        }
+      }
+    }
+  }
+  .dark\:hover\:bg-\[\#ccc\] {
+    &:where(.dark, .dark *) {
+      &:hover {
+        @media (hover: hover) {
+          background-color: #ccc;
+        }
+      }
     }
   }
 }
@@ -9343,8 +9510,8 @@
     transition-property: all;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
-    --tw-duration: 500ms;
-    transition-duration: 500ms;
+    --tw-duration: 600ms;
+    transition-duration: 600ms;
     &:hover {
       @media (hover: hover) {
         --tw-scale-x: 105%;
@@ -9366,7 +9533,7 @@
       padding-inline: calc(var(--spacing) * 30);
     }
     @media (width >= 64rem) {
-      padding-inline: calc(var(--spacing) * 50);
+      padding-inline: calc(var(--spacing) * 40);
     }
     &:where(.dark, .dark *) {
       border-color: var(--color-gray-700);

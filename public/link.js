@@ -25,7 +25,7 @@ const links = {
     document.querySelectorAll("[data-link]").forEach((el) => {
       const key = el.getAttribute("data-link");
       if (links[key]) {
-        el.href = links[key];
+        el.href = links[key]; 
       }
     });
   });
