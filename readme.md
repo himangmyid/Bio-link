@@ -2,6 +2,26 @@
 
 I created a **Bio Link** using **Tailwind CSS 4**. This project provides a customizable and responsive bio link page similar to Linktree.
 
+<hr/>
+<div align="center">
+<h1 align="center">💸 Support me💰</h1>
+<table align="center">
+  <tr>
+     <td align="center">
+      <a href="https://paypal.me/DogGhozt" target="_blank">
+        <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/paypal/default.svg" width="52" height="40" alt="paypal logo" />
+      </a>
+    </td>
+    <td align="center">
+  <a href="https://trakteer.id/himang/tip" target="_blank">
+    <img src="https://img.icons8.com/?size=100&id=13013&format=png&color=000000" width="52" height="40" alt="buy me a coffee" />
+  </a>
+</td>
+  </tr>
+</table>
+</div>
+<hr/>
+
 ## Screenshots
 
 ### Mobile View
