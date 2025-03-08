@@ -9,15 +9,8 @@
 
 @layer components {
   .a-but {
-    @apply relative flex items-center justify-center  
-    text-lg sm:text-xl font-semibold hover:shadow-sm hover:scale-105  
-    rounded-2xl border-b-4 shadow-md transition-all duration-500  
-    break-words text-center dark:bg-gray-800 border-gray-300 dark:border-gray-700  
-    shadow-gray-400 dark:shadow-gray-900  
-    px-8 sm:px-12 md:px-16 lg:px-20  
-    py-4 sm:py-5  
-    w-auto min-w-[10rem] sm:min-w-[12rem] md:min-w-[14rem]  
-    max-w-[18rem] sm:max-w-[20rem] md:max-w-[24rem];
+    @apply relative flex items-center justify-center   text-lg font-semibold hover:shadow-sm hover:scale-105   rounded-2xl border-b-4 shadow-md transition-all duration-500  break-words text-center dark:bg-gray-800 border-gray-300 dark:border-gray-700  
+    shadow-gray-400 dark:shadow-gray-900 sm:px-20 md:px-30 lg:px-50 py-4 px-19;
   }
   .fa-icon{
     @apply absolute left-4 transition-all duration-300 group-hover:scale-110;

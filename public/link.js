@@ -20,7 +20,6 @@ const links = {
     threads: "https://www.threads.net/@himang_dg",
     marketplace: "/",
   };
-  
   // Auto-inject links ke dalam HTML
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("[data-link]").forEach((el) => {
@@ -30,4 +29,3 @@ const links = {
       }
     });
   });
-  
