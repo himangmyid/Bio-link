@@ -22,6 +22,14 @@ I created a **Bio Link** using **Tailwind CSS 4**. This project provides a custo
 </div>
 <hr/>
 
+<p align="center">
+  <a href="https://github.com/himangmyid/Bio-link">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=himangmyid&repo=Bio-link&theme=tokyonight" alt="GitHub Repo Card">
+  </a>
+</p>
+
+
+
 ## Screenshots
 
 ### Mobile View
