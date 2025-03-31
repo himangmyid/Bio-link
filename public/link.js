@@ -1,5 +1,5 @@
 const links = {
-  website: "https://portofolio-v2-dun.vercel.app/",
+  website: "https://portofolio-v2-nextjs.vercel.app/",
   mycoffee: "https://trakteer.id/himang/tip",
   facebook: "https://www.facebook.com/himangbd181021/",
   instagram: "https://instagram.com/himang_dg",
