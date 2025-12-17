@@ -12,6 +12,7 @@ const links = {
   linkedin: "https://s.id/linkedin-himang",
   spotify: "/",
   discord: "https://discord.gg/MP2pSKjXSB",
+  discord2: "https://discord.gg/9qBhJzmWSf",
   dribbble: "/",
   medium: "/",
   paypal: "https://paypal.me/DogGhozt",
